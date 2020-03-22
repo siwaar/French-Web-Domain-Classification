@@ -36,7 +36,7 @@ We first used different methods to get the encoding and add new features and the
 
 ## Results
 
-The report "project_report.pdf" contains the results that we had for testing the different models mentioned in the previous section.
+The report "project_report.pdf" contains the results that we had for testing the different models mentioned in the previous section and more details about this project.
 
 ##  Code description
 This project is composed mainly in three directories:
