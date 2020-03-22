@@ -36,20 +36,11 @@ We first used different methods to get the encoding and add new features and the
 
 ##  Code description
 This project is composed mainly in three directories:
-• models: where we can find the different models we
-used.
-• utils: where we find util functions for data loading
-and preprocessing.
-We made scripts to make our script more usable. You could
-run the following steps after preparing the data folder:
-• install deps.sh to install dependencies using this
-command: $ sh install deps.sh
-• cross val.py in order to run cross-validation
-(change model in cross val.py) using this command: $
-python cross val.py
-• write submission.py to write submissions with
-the CNN model using this command: $ python
-write submission.py
-• write submission stacked.py in order to write submissions with the stacked
-models using this command: $ python
-write submission stacked.py
+  - models: where we can find the different models we used.
+  - utils: where we find util functions for data loading and preprocessing.
+
+We made scripts to make our script more usable. You could run the following steps after preparing the data folder:
+  - Install deps.sh to install dependencies using this command: $ sh install deps.sh
+  - cross val.py in order to run cross-validation (change model in cross val.py) using this command: $python cross val.py
+  - Write submission.py to write submissions with the CNN model using this command: $ python write submission.py
+  - Write submission stacked.py in order to write submissions with the stacked models using this command: $ python write submission stacked.py
