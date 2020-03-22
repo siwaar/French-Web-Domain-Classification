@@ -8,7 +8,7 @@ In this project, we implemented different prepossessing strategies to deal with 
 
 ## Dataset
 The dataset of French domains was generated from a large crawl of the French web that was performed
-by the DaSciM team. You are given the following files:
+by the DaSciM team. We are given the following files:
 1. edgelist.txt: a subgraph of the French web graph. It has 28, 002 vertices and 319, 498 weighted,
 directed edges. Nodes correspond to domain ids and there is an edge between two nodes if there
 is a hyperlink from at least one page of the source domain to at least one page of the target domain.
@@ -17,8 +17,8 @@ text was extracted from the HTML source code of the pages.
 3. train.csv: 2, 125 labeled domain ids. One domain id and category per row. The list of categories is
 shown in Table 1.
 4. test.csv: 560 domain ids the category of which is to be predicted. One domain id per row.
-5. graph baseline.csv: output of the provided graph baseline. Submissions have to follow this exact
-format.
+5. graph baseline.csv: output of the provided graph baseline. 
+
 
 ## Preprocessing
 To deal with our data (text data and graph data) and make them ready for the models, we did:
@@ -32,6 +32,9 @@ To deal with our data (text data and graph data) and make them ready for the mod
 
 ## Models Used
 We first used different methods to get the encoding and add new features and then we used, in particular, three methods of classification: XGBOOST, CNN and CamemBERT.
+
+## Evaluation
+The metric for this project is the multi-class logarithmic loss. It is defined as the negative loglikelihood of the true class labels given a probabilistic classifier’s predictions.
 
 ## Results
 
