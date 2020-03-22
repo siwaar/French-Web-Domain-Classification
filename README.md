@@ -3,9 +3,8 @@ Authors : ABBES Siwar, ABED Dina, Karray Elyess
 
 ## Introduction
 The goal of this project is to solve a web domain classification problem. Text based methods and Graph based methods on
-web pages document for classification tasks are ofmany studies.
-In this project, we implement different prepossessing strategies to deal with our data and we explore different methods of machine learning and deep learning to solve a web domain classification problem. We present all the methods deployed and the
-best scored method.
+web pages document for classification tasks are of many studies.
+In this project, we implemented different prepossessing strategies to deal with our data and we explored different methods of machine learning and deep learning to solve a web domain classification problem. We present all the methods deployed and the best scored method.
 
 ## Dataset
 The dataset of French domains was generated from a large crawl of the French web that was performed
