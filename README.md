@@ -20,3 +20,36 @@ shown in Table 1.
 4. test.csv: 560 domain ids the category of which is to be predicted. One domain id per row.
 5. graph baseline.csv: output of the provided graph baseline. Submissions have to follow this exact
 format.
+
+## Preprocessing
+To deal with our data (text data and graph data) and make them ready for the models, we did:
+  - Text feature extraction
+  - Text cleaning
+  - Lemmatization
+  - Word Embedding
+  - Document Embedding
+  - Graph feature extraction
+
+
+## Models Used
+We first used different methods to get the encoding and add new features and then we used, in particular, three methods of classification: XGBOOST, CNN and CamemBERT.
+
+##  Code description
+This project is composed mainly in three directories:
+• models: where we can find the different models we
+used.
+• utils: where we find util functions for data loading
+and preprocessing.
+We made scripts to make our script more usable. You could
+run the following steps after preparing the data folder:
+• install deps.sh to install dependencies using this
+command: $ sh install deps.sh
+• cross val.py in order to run cross-validation
+(change model in cross val.py) using this command: $
+python cross val.py
+• write submission.py to write submissions with
+the CNN model using this command: $ python
+write submission.py
+• write submission stacked.py in order to write submissions with the stacked
+models using this command: $ python
+write submission stacked.py
