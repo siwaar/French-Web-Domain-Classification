@@ -34,6 +34,10 @@ To deal with our data (text data and graph data) and make them ready for the mod
 ## Models Used
 We first used different methods to get the encoding and add new features and then we used, in particular, three methods of classification: XGBOOST, CNN and CamemBERT.
 
+## Results
+
+The report "project_report.pdf" contains the results that we had for testing the different models mentioned in the previous section.
+
 ##  Code description
 This project is composed mainly in three directories:
   - models: where we can find the different models we used.
