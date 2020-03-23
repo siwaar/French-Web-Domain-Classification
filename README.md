@@ -2,7 +2,10 @@
 Authors : ABBES Siwar, ABED Dina, Karray Elyess
 
 ## Introduction
-The goal of this project is to solve a web domain classification problem. Text based methods and Graph based methods on
+The goal of this project is to solve a web domain classification problem. We have 8 different categories: business/finance, education/research, entertainment,
+health/medical, news/press, politics/government/law, sports
+and tech/science.
+Text based methods and Graph based methods on
 web pages document for classification tasks are of many studies.
 In this project, we implemented different prepossessing strategies to deal with our data and we explored different methods of machine learning and deep learning to solve a web domain classification problem. We present all the methods deployed and the best scored method.
 
