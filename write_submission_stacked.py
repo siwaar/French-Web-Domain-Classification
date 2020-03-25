@@ -1,9 +1,8 @@
 import csv
 import numpy as np
 
-from models.doc_embedding.model import DocEmbeddingModel
-from models.deep.cnn import CNNModel
-from models.deep.camembert import CamembertModel
+from models.cnn import CNNModel
+from models.camembert import CamembertModel
 
 from utils.read_data import get_data_full
 
@@ -13,11 +12,10 @@ labels = ['business/finance', 'education/research', 'entertainment', 'health/med
 X_train, y_train, X_test, test_hosts = get_data_full()
 
 models = [
-  DocEmbeddingModel(),
   CNNModel(),
   CamembertModel(),
 ]
-coefs = [0.3, 0.5, 0.2]
+coefs = [0.5, 0.2]
 
 for model in models:
     model.fit(X_train, y_train)
