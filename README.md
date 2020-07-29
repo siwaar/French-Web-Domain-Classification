@@ -35,7 +35,7 @@ To deal with our data (text data and graph data) and make them ready for the mod
 
 
 ## Models Used
-We first used different methods to get the encoding and add new features and then we used, in particular, three methods of classification: CNN and CamemBERT.
+We first used different methods to get the encoding and add new features and then we used, in particular, three methods of classification: CNN, XGboost and CamemBERT.
 
 ## Evaluation
 The metric for this project is the multi-class logarithmic loss. It is defined as the negative loglikelihood of the true class labels given a probabilistic classifier’s predictions.
